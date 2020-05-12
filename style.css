@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	background-color: #555;
+}
+table {
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;
+}
+td {
+	width: 90px;
+	height: 140px;
+	margin: 20px;
+	padding: 0;
+	background-color: rgb(20,70,20);
+	/*background-image: url("PNG/red_back.png");*/
+	background-size: cover;
+}
+
+#playarea {
+	margin: 0 auto;
+	width: 1000px;
+	height: 800px;
+	background-color: rgb(20, 160, 20);
+}
+#gombok {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+#hand {
+	margin: 30px;
+	float: right;
+	width: 90px;
+	height: 140px;
+	top: 10px;
+	background-image: url("PNG/red_back.png");
+	background-size: cover;
+	z-index: 1;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transition: 0.2s ease;
+}
+#hand:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+
+#moneyarea {
+	position: relative;
+	left: 100px;
+	text-align: left;
+}
+#money {
+	width: 70px;
+}
+#tet {
+	width: 50px;
+}

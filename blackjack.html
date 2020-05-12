@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script src="blackjack.js"></script>
+<title>21 game</title>
+</head>
+<body>
+<div id="playarea">
+	<span id="hand" onclick="uj_jatek()"></span>
+	<table>
+		<tr>
+			<td id="gep1"></td><td id="gep2"></td><td id="gep3"></td><td id="gep4"></td><td id="gep5"></td><td id="gep6"></td><td id="gep7"></td>
+		</tr>
+		<tr>
+			<td id="em1"></td><td id="em2"></td><td id="em3"></td><td id="em4"></td><td id="em5"></td><td id="em6"></td><td id="em7"></td>
+		</tr>
+	</table>
+	<div id="gombok">
+	<div id="moneyarea"><label>Pénz: </label><input type="text" id="money" value="100" disabled><br><label>Tét: </label><input type="number" id="tet" min="1" value="10"></div>
+	<p id="resetszoveg">Új játékhoz kattints a paklira</p>
+	<button id="hit" onclick="hit()" disabled>Ütés</button><button id="stand" onclick="stand()" disabled>Állj</button>
+	<p id="pontszam"></p>
+	<p id="eredmeny"></p>
+	</div>
+</div>
+</body>
+</html> 

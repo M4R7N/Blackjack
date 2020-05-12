@@ -162,7 +162,7 @@ function game_end() //Kiírjuk, hogy nincs több pénzed, letiltunk minden bevit
 	disableHand();
 	tet.disabled = true;
 	document.getElementById("eredmeny").innerHTML += "<br>Elfogyott a pénzed!<br>Játékok száma: " + games + ". Győzelmek száma: " + wins + ". Döntetlenek száma: " + ties + ".";
-	document.getElementById("eredmeny").innerHTML += "<br>Győzelmi arány: " + Math.floor(wins/games*100);
+	document.getElementById("eredmeny").innerHTML += "<br>Győzelmi arány: " + Math.floor(wins/games*100) +"%";
 	document.getElementById("resetszoveg").innerHTML = "Új játékhoz frissítsd az oldalt!";
 }
 

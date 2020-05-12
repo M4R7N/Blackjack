@@ -16,7 +16,7 @@ td {
 	padding: 0;
 	background-color: rgb(20,70,20);
 	/*background-image: url("PNG/red_back.png");*/
-	background-size: cover;
+	background-size: 90px 140px;
 }
 
 #playarea {
